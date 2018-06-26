@@ -28,7 +28,6 @@ app.use(require('morgan')('combined'));
 app.use(require('compression')());
 
 app.set('port', portNormalizer.normalizePort(process.env.PORT || '3333'));
-require('./routes').api(app);
 
 app.listen(app.get('port'), () => {
   logger.log(`Find the server at: http://localhost:${app.get('port')}/`, 'ready');
