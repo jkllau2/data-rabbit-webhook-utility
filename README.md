@@ -10,5 +10,5 @@ Change webhook uri to uri of your choice in `config/config.js`
 Run `npm start`
 
 # Improvements / TODO
-- Add an simple auth
-- have it read live data
+- Add an auth (Oauth)
+- Adjust data source to live data
